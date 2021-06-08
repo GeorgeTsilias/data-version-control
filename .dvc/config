@@ -1,5 +1,4 @@
 [core]
-    analytics = false
-    remote = dvc_remote
-['remote "dvc_remote"']
-    url = gs://cognitivplus_dvc
+    remote = localremote
+['remote "localremote"']
+    url = /data
